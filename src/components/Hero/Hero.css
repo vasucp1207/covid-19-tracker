@@ -1,0 +1,40 @@
+h1{
+    margin: 70px 0 30px 4px;
+    color: var(--pink);
+    font-size: medium;
+    font-weight: 400;
+}
+
+h3{
+    margin-top: 20px;
+    font-size: 2.5rem;
+    color: var(--slate);
+}
+
+p{
+    margin-top: 30px;
+    max-width: 500px;
+    color: var(--slate);
+}
+
+p>a{
+    color: var(--pink);
+}
+
+.hero__trans{
+    margin-bottom: 30px;
+}
+
+button.MuiButton-root{
+    margin-top: 70px;
+    margin-bottom: 120px;
+    color: var(--pink);
+    border: 1px solid var(--pink);
+    height: 50px;
+    animation: movei 2s ease-in-out infinite;
+}
+
+button.MuiButton-root:hover{
+    color: black;
+    background: var(--pink);
+}
